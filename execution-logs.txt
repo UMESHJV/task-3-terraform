@@ -1,0 +1,41 @@
+DEVOPS INTERNSHIP TASK 3
+Infrastructure as Code (IaC) with Terraform
+
+Project: Docker Nginx Container
+Repository: https://github.com/UMESHJV/task-3-terraform
+
+1. Terraform Version
+Command: terraform -version
+Result: Terraform v1.14.8
+
+2. Initialize Terraform
+Command: terraform init
+Result: Successful. Docker provider installed.
+
+3. Validate Configuration
+Command: terraform validate
+Result: Success! The configuration is valid.
+
+4. Preview Infrastructure Changes
+Command: terraform plan
+Result: Plan: 2 to add, 0 to change, 0 to destroy.
+
+5. Create Infrastructure
+Command: terraform apply
+Result: Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+6. Verify Application
+URL: http://localhost:8080
+Result: Nginx welcome page displayed successfully in the browser.
+
+7. Inspect Terraform State
+Command: terraform state list
+Result: Terraform-managed Docker image and container resources were inspected.
+
+8. Destroy Infrastructure
+Command: terraform destroy
+Result: Destroy complete! Resources: 2 destroyed.
+
+9. Final Status
+The Terraform project was committed and pushed to GitHub.
+The Nginx container was removed after testing.
